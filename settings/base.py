@@ -113,6 +113,7 @@ DEFAULT_LANGUAGE = 0
 LOCALE_PATHS = ('locale', )
 
 GOOGLE_ANALYTICS_PROPERTY_ID = ''
+GOOGLE_ANALYTICS_SITE_SPEED = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/

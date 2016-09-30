@@ -5,3 +5,8 @@ django-bootstrap-pagination==1.5.1
 django-filter==0.13.0
 markdown==2.6.6
 django-extensions==1.6.1
+django-friendship
+django-crispy-forms
+django-pagedown
+django-flatblocks
+django-markdown-deux
