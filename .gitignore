@@ -16,12 +16,12 @@ tests/coverage_html/
 tests/.coverage
 build/
 tests/report/
-*.sqlite3
 cache/
 #*/dev.log
 #*/prod.log
 #*/*.log
 
+#*.sqlite3
 secret_key.txt
 #settings/production.py
 staticfiles_dev/
