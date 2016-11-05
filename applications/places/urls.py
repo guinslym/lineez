@@ -5,6 +5,7 @@ from django.conf.urls import url, include, handler404, handler500
 #handler404 = 'applications.websites.views.handler404'
 #handler500 = 'applications.websites.views.handler500'
 from applications.places import views
+'''
 from applications.places.views import (
 	#post_list,
 	#post_create,
@@ -14,6 +15,7 @@ from applications.places.views import (
     #add_bulletin,
     #ProductCreateView,
 	)
+'''
 
 urlpatterns = [
 url(r'^$', views.HomePageTemplate.as_view(), name='list'),
