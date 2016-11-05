@@ -15,11 +15,11 @@ from django.core.validators import MaxValueValidator
 
 
 class Post(TimeStampedModel):
-    author = models.ForeignKey(settings.AUTH_USER_MODEL)
+    #author = models.ForeignKey(settings.AUTH_USER_MODEL)
     title = models.CharField(max_length=60, null=False, blank=False, verbose_name='title')
     decription = models.TextField(null=True, blank=True, verbose_name='description')
 
-    address = models.CharField(max_length=100, null=True, blank=True, verbose_name='address')
+    location = models.CharField(max_length=100, null=True, blank=True, verbose_name='address')
     '''
     photo = models.ImageField(
                             upload_to='places/%Y/%m/%d',
@@ -27,6 +27,7 @@ class Post(TimeStampedModel):
                             null=False, blank=False, verbose_name="pics"
                             )
     '''
+    start_date = models.DateTimeField(blank=False)
     slug = models.CharField(max_length=220, null=True, blank=True)
     price = models.DecimalField(max_digits=16, decimal_places=2, default=0, null=True, blank=True)
     activated = models.BooleanField(default=False)
