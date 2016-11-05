@@ -19,19 +19,12 @@ class Post(TimeStampedModel):
         ('1', '1'),
         ('2', '2'),
         )
+
+
     author = models.ForeignKey(settings.AUTH_USER_MODEL)
     title = models.CharField(max_length=60, null=False, blank=False, verbose_name='title')
-    #decription = models.TextField(null=True, blank=True, verbose_name='description')
-    #slug = models.CharField(max_length=220, null=True, blank=True)
 
     location = models.CharField(max_length=100, null=True, blank=True, verbose_name='address')
-    '''
-    photo = models.ImageField(
-                            upload_to='places/%Y/%m/%d',
-                            help_text='Provide an image of the location',
-                            null=False, blank=False, verbose_name="pics"
-                            )
-    '''
     start_date = models.DateTimeField(auto_now=True, auto_now_add=False,blank=True, null=True)
     before_start = models.CharField(max_length=10, choices=Number_of_hours, default="Time in day")
     #NEEDS to add before_date
@@ -40,6 +33,15 @@ class Post(TimeStampedModel):
     activated = models.BooleanField(default=False)
     #did this product have been sale
     sale = models.BooleanField(default=False)
+    #decription = models.TextField(null=True, blank=True, verbose_name='description')
+    #slug = models.CharField(max_length=220, null=True, blank=True)
+    '''
+    photo = models.ImageField(
+    upload_to='places/%Y/%m/%d',
+    help_text='Provide an image of the location',
+    null=False, blank=False, verbose_name="pics"
+    )
+    '''
 
     def __str__(self):
         return str(self.id)
