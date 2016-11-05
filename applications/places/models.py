@@ -15,7 +15,7 @@ from django.core.validators import MaxValueValidator
 
 
 class Post(TimeStampedModel):
-    #author = models.ForeignKey(settings.AUTH_USER_MODEL)
+    author = models.ForeignKey(settings.AUTH_USER_MODEL)
     title = models.CharField(max_length=60, null=False, blank=False, verbose_name='title')
     decription = models.TextField(null=True, blank=True, verbose_name='description')
 
