@@ -30,7 +30,8 @@ class Post(TimeStampedModel):
     #NEEDS to add before_date
 
     price = models.DecimalField(max_digits=16, decimal_places=2, default=0, null=True, blank=True)
-    activated = models.BooleanField(default=False)
+
+    #activated = models.BooleanField(default=False)
     #did this product have been sale
     sale = models.BooleanField(default=False)
     #decription = models.TextField(null=True, blank=True, verbose_name='description')
