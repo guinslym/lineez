@@ -29,6 +29,8 @@ class Post(TimeStampedModel):
     '''
     start_date = models.DateTimeField(auto_now=True, auto_now_add=False,blank=True, null=True)
     slug = models.CharField(max_length=220, null=True, blank=True)
+    #NEEDS to add before_date
+    
     price = models.DecimalField(max_digits=16, decimal_places=2, default=0, null=True, blank=True)
     activated = models.BooleanField(default=False)
     #did this product have been sale
