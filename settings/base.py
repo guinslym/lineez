@@ -49,6 +49,48 @@ BASE_APPS =  (
     'django_extensions',
 )
 THIRD_PARTY_APPS =  (
+    'crispy_forms',
+    #django-friendship   # https://github.com/revsys/django-friendship
+    'friendship',
+    # django-vote        # https://github.com/shanbay/django-vote
+    'vote',
+    # django_ajax        # https://github.com/yceruto/django-ajax
+    #'django_ajax',
+    # django-contrib-comments # https://django-contrib-comments.readthedocs.io/en/latest/quickstart.html
+    #'django_comments',
+    #'bootstrap_pagination',
+    ## Allaouth          # https://django-allauth.readthedocs.io/en/latest/index.html
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    #'allauth.socialaccount.providers.bitbucket',
+    #'allauth.socialaccount.providers.facebook',
+    #'allauth.socialaccount.providers.github',
+    #'allauth.socialaccount.providers.google',
+    # DRF
+    'rest_framework',
+    'rest_framework.authtoken',
+    # Django-rest-auth          # https://github.com/Tivix/django-rest-auth
+    'rest_auth',
+    'rest_auth.registration',
+)
+
+
+
+
+
+BASE_APPS =  (
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.sites',
+    'django.contrib.staticfiles',
+    'django.contrib.humanize',
+    'django_extensions',
+)
+THIRD_PARTY_APPS =  (
     'rest_framework',
      'crispy_forms',
     'bootstrap_pagination',
