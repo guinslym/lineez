@@ -10,7 +10,7 @@ from .models import Post
 from .forms import PostForm
 
 class PostHomeListView(ListView):
-    template_name = "post/home.html"
+    template_name = "posts/home.html"
     model = Post
 
 
@@ -19,12 +19,12 @@ class PostHomeRedirectView(RedirectView):
 
 
 class PostDetailView(DetailView):
-    template_name = "post/post.html"
+    template_name = "posts/post.html"
     model = Post
 
 
 class PostCreateView(CreateView):
-    template_name = "post/create.html"
+    template_name = "posts/create.html"
     form_class = PostForm
 
     def form_valid(self, form):
@@ -41,6 +41,6 @@ class PostDeleteView(DeleteView):
 
 
 class PostUpdateView(UpdateView):
-    template_name = "post/update.html"
+    template_name = "posts/update.html"
     model = Post
     form_class = PostForm
