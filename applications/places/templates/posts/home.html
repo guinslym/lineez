@@ -7,11 +7,11 @@
   <div class="collection">
     {% for article in object_list %}
 
-        <a class="collection-item" href="{% url 'delivrem:product-detail' article.id %}">
+        <a class="collection-item" href="">
           <i class="tiny material-icons">done</i>
-          {{article.showoff}}
+          {{article.title}}
         </a>
     {% endfor %}
   </div>
-  <a class="btn right" href="{% url 'delivrem:product-create' %}">Create Article</a>
+  <a class="btn right" href="">Create Article</a>
 {% endblock %}
