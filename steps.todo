@@ -3,6 +3,7 @@ Motto:
 
 Music:
   ☐ https://soundcloud.com/creolemagazine/jbeatz-feat-misty-jean-mkonnen-manto-music-2016
+  ☐ https://soundcloud.com/atisyonanbaz/my-pain-kenny-desmangles-album
 
 
 Installation steps:
@@ -18,11 +19,24 @@ Installation steps:
   ☐ Review the app (4 days)
   ☐ Create ReactJS app
 
+
+Steps:
+  ☐ Post model
+    ☐ CreateView
+    ☐ ListView/TemplateView
+    ☐ UpdateView
+    ☐ DetailView
+    ☐ DeleteView
+  ☐ URLS for each
+  ☐ Templates ()
+
  helper-documentation:
   ☐ https://github.com/smrkem/Django-TDD-goat-tutorial
 
 Third-Party:
   ☐ https://github.com/algolia/places
+  ☐ https://github.com/brack3t/django-braces
+  ☐ http://docs.fabfile.org/en/1.12/api/contrib/django.html
 
 Extra:
   ☐ https://education.github.com/pack
