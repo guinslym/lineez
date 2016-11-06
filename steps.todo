@@ -21,14 +21,15 @@ Installation steps:
 
 
 Steps:
-  ☐ Post model
-    ☐ CreateView
-    ☐ ListView/TemplateView
-    ☐ UpdateView
-    ☐ DetailView
-    ☐ DeleteView
-  ☐ URLS for each
-  ☐ Templates ()
+  ✔ Post model @done(2016-11-05 22:01) @project(Steps)
+    ✔ CreateView @done(2016-11-05 22:01) @project(Steps)
+    ✔ ListView/TemplateView @done(2016-11-05 22:01) @project(Steps)
+    ✔ UpdateView @done(2016-11-05 22:01) @project(Steps)
+    ✔ DetailView @done(2016-11-05 22:01) @project(Steps)
+    ✔ DeleteView @done(2016-11-05 22:01) @project(Steps)
+  ✔ URLS for each @done(2016-11-05 22:01) @project(Steps)
+  ✔ Templates () @done(2016-11-05 22:01) @project(Steps)
+  ☐ Find a Bootstrap template for CRUD
 
  helper-documentation:
   ☐ https://github.com/smrkem/Django-TDD-goat-tutorial
