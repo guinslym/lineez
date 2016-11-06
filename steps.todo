@@ -24,6 +24,7 @@ Installation steps:
 Third-Party:
   ☐ https://github.com/algolia/places
   ☐ https://github.com/brack3t/django-braces
+  ☐ http://docs.fabfile.org/en/1.12/api/contrib/django.html
 
 Extra:
   ☐ https://education.github.com/pack
