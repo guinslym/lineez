@@ -16,12 +16,12 @@ from applications.places.views import (
 
 
 urlpatterns = [
-    url(r'^$', PostHomeListView.as_view(), name="blog-home"),
-    url(r'^(?P<pk>\d+)/$', PostDetailView.as_view(), name="article-detail"),
+    url(r'^$', PostHomeListView.as_view(), name="posts-home"),
+    url(r'^(?P<pk>\d+)/$', PostDetailView.as_view(), name="posts-detail"),
 
-    url(r'^create/$', PostCreateView.as_view(), name="article-create"),
-    url(r'^delete/(?P<pk>\d+)/$', PostDeleteView.as_view(), name="article-delete"),
-    url(r'^update/(?P<pk>\d+)/$', PostUpdateView.as_view(), name="article-update"),
+    url(r'^create/$', PostCreateView.as_view(), name="posts-create"),
+    url(r'^delete/(?P<pk>\d+)/$', PostDeleteView.as_view(), name="posts-delete"),
+    url(r'^update/(?P<pk>\d+)/$', PostUpdateView.as_view(), name="posts-update"),
 ]
 
 #Static files serves with WhiteNoise (pip install WhiteNoise)
