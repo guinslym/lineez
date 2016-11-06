@@ -19,6 +19,16 @@ Installation steps:
   ☐ Review the app (4 days)
   ☐ Create ReactJS app
 
+
+Steps:
+  ☐ Post model
+    ☐ CreateView
+    ☐ ListView/TemplateView
+    ☐ UpdateView
+    ☐ DetailView
+    ☐ DeleteView
+  ☐ URLS for each
+
  helper-documentation:
   ☐ https://github.com/smrkem/Django-TDD-goat-tutorial
 
