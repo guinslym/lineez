@@ -28,6 +28,7 @@ Steps:
     ☐ DetailView
     ☐ DeleteView
   ☐ URLS for each
+  ☐ Templates ()
 
  helper-documentation:
   ☐ https://github.com/smrkem/Django-TDD-goat-tutorial
