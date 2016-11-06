@@ -1,14 +1,28 @@
+Motto:
+  ☐ Don't be afraid to fail
+
+Music:
+  ☐ https://soundcloud.com/creolemagazine/jbeatz-feat-misty-jean-mkonnen-manto-music-2016
+
+
 Installation steps:
- ✔ Create your django project 'django-admin startproject myproject' @done (16-06-09 17:17)
- ✔ cd myproject @done (16-06-09 17:17)
- ☐ cp ~/django_local_boilerplate/* .
- ☐ change minimal settings in settings/base.py from what you have inside myproject/settings.py
- ☐ change myproject/wsig.py and manage.py to point to 'settings.dispatch'
- ☐ python manage.py check
- ☐ py.test
- ☐ if everything is ok then 'rm myproject/settings.py'
+  ☐ Create Post Model
+  ☐ Create Post CRUD
+  ☐ Create user authentification (loginrequiredmixin)
+  ☐ Create User Profile
+  ☐ Create Paiment
+  ☐ Create Messages
+  ☐ Create Followers
+  ☐ Create likes
+  ☐ Create Comments
+  ☐ Review the app (4 days)
+  ☐ Create ReactJS app
 
  helper-documentation:
   ☐ https://github.com/smrkem/Django-TDD-goat-tutorial
 
-  https://github.com/algolia/places
+Third-Party:
+  ☐ https://github.com/algolia/places
+
+Extra:
+  ☐ https://education.github.com/pack
