@@ -19,7 +19,7 @@ class PostHomeRedirectView(RedirectView):
 
 
 class PostDetailView(DetailView):
-    template_name = "posts/post.html"
+    template_name = "posts/detail.html"
     model = Post
 
 
