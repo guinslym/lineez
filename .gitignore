@@ -24,7 +24,7 @@ cache/
 #*.sqlite3
 secret_key.txt
 #settings/production.py
-staticfiles_dev/
+staticfiles/
 htmlcov/
 applications/*/tests/
 description.todo
