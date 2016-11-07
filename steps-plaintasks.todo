@@ -12,6 +12,7 @@ Music:
 Installation steps:
   ✔ Create Post Model @done(2016-11-06 23:38) @project(Installation steps)
   ✔ Create Post CRUD @done(2016-11-06 23:38) @project(Installation steps)
+  ☐ Fork the application to create a base app
   ☐ Create user authentification (loginrequiredmixin)
   ☐ Create User Profile
   ☐ Create User Posts
@@ -38,6 +39,7 @@ Installation steps:
   ✔ Update and Create - form - doesn't work @done(2016-11-06 23:00) @project(Steps)
   ✔ Add admin for Form - places:Post @done(2016-11-06 23:00) @project(Steps)
   ☐ Debug tool bar to make work
+  ☐ Missing a button on Create/Update the form
   ✔ Delete doesn't work @done(2016-11-06 21:31) @project(Steps)
 
  helper-documentation:
