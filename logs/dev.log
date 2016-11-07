@@ -133,3 +133,45 @@ django.core.urlresolvers.NoReverseMatch: Reverse for 'blog-home' with arguments 
 [2016-11-06 21:23:36,232] WARNING % : Method Not Allowed (POST): /4/
 [2016-11-06 21:29:07,617] WARNING % : Not Found: /__debug__
 [2016-11-06 21:29:16,037] WARNING % : Not Found: /__debug__/
+[2016-11-06 21:37:24,097] ERROR % : Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\admin\sites.py", line 444, in index
+    current_app=self.name,
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 578, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 495, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'app_list' with arguments '()' and keyword arguments '{'app_label': 'places'}' not found. 1 pattern(s) tried: ['admin/(?P<app_label>auth|sites)/$']
+[2016-11-06 21:39:09,689] ERROR % : Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\admin\sites.py", line 444, in index
+    current_app=self.name,
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 578, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 495, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'app_list' with arguments '()' and keyword arguments '{'app_label': 'places'}' not found. 1 pattern(s) tried: ['admin/(?P<app_label>auth|sites)/$']

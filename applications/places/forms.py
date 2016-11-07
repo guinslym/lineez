@@ -14,4 +14,4 @@ class PostForm(ModelForm):
         ]
 
 #administration
-admin.site.register(PostForm)
+admin.site.register(Post)
