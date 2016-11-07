@@ -56,6 +56,11 @@ Extra:
 Admin:
 ☐ username: admin
 ☐ password: adminadmin
+☐ http://django-registration-redux.readthedocs.io/en/latest/
+☐ username: user1
+☐ password: adminadmin
+☐ username: user2
+☐ password: adminadmin
 
 
 Dev:

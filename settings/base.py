@@ -49,6 +49,8 @@ BASE_APPS =  (
     'django_extensions',
 )
 THIRD_PARTY_APPS =  (
+
+
     'crispy_forms',
     #django-friendship   # https://github.com/revsys/django-friendship
     'friendship',
@@ -60,9 +62,10 @@ THIRD_PARTY_APPS =  (
     #'django_comments',
     #'bootstrap_pagination',
     ## Allaouth          # https://django-allauth.readthedocs.io/en/latest/index.html
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
+    #'allauth',
+    #'allauth.account',
+    #'allauth.socialaccount',
+
     #'allauth.socialaccount.providers.bitbucket',
     #'allauth.socialaccount.providers.facebook',
     #'allauth.socialaccount.providers.github',
@@ -207,5 +210,17 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.RemoteUserBackend',
 )
 
+AUTHENTICATION_BACKENDS = (
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
+
+
 LOGIN_REDIRECT_URL = "/"
 SHELL_PLUS = "ipython"
+
+LOGIN_REDIRECT_URL='/login/'
+LOGOUT_URL='/logout/'

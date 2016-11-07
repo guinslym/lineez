@@ -17,9 +17,12 @@ from django.conf.urls.static import static
 from django.conf.urls import url, include, handler404, handler500
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.contrib.auth import views as auth_views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^login/$', auth_views.login, name="login"),
+    url(r'^logout/$', auth_views.logout, name="logout"),
      url(r'^', include('applications.places.urls', namespace='places')),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
