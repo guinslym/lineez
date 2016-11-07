@@ -216,3 +216,55 @@ Traceback (most recent call last):
   File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\admin\options.py", line 642, in get_form
     % (e, self.__class__.__name__))
 django.core.exceptions.FieldError: Unknown field(s) (before_date, description, start_date) specified for Post. Check fields/fieldsets/exclude attributes of class PostAdmin.
+[2016-11-06 23:30:51,459] ERROR % : Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\middleware.py", line 120, in process_response
+    panel.generate_stats(request, response)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 127, in generate_stats
+    'staticfiles_finders': self.get_staticfiles_finders(),
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 138, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\staticfiles\finders.py", line 112, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\staticfiles\utils.py", line 28, in get_files
+    directories, files = storage.listdir(location)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\files\storage.py", line 299, in listdir
+    for entry in os.listdir(path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\gmond071\\Documents\\GitHub\\lineez\\static'
+[2016-11-06 23:30:51,834] WARNING % : Not Found: /favicon.ico
+[2016-11-06 23:30:51,854] ERROR % : Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\middleware.py", line 120, in process_response
+    panel.generate_stats(request, response)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 127, in generate_stats
+    'staticfiles_finders': self.get_staticfiles_finders(),
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 138, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\staticfiles\finders.py", line 112, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\staticfiles\utils.py", line 28, in get_files
+    directories, files = storage.listdir(location)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\files\storage.py", line 299, in listdir
+    for entry in os.listdir(path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\gmond071\\Documents\\GitHub\\lineez\\static'
+[2016-11-06 23:31:32,410] ERROR % : Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\handlers\base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\middleware.py", line 120, in process_response
+    panel.generate_stats(request, response)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 127, in generate_stats
+    'staticfiles_finders': self.get_staticfiles_finders(),
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\debug_toolbar\panels\staticfiles.py", line 138, in get_staticfiles_finders
+    for path, finder_storage in finder.list([]):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\staticfiles\finders.py", line 112, in list
+    for path in utils.get_files(storage, ignore_patterns):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\contrib\staticfiles\utils.py", line 28, in get_files
+    directories, files = storage.listdir(location)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\files\storage.py", line 299, in listdir
+    for entry in os.listdir(path):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\gmond071\\Documents\\GitHub\\lineez\\static'

@@ -37,8 +37,9 @@ Steps:
   ✔ URLS for each @done(2016-11-05 22:01) @project(Steps)
   ✔ Templates () @done(2016-11-05 22:01) @project(Steps)
   ✔ Find a Bootstrap template for CRUD @done(2016-11-06 21:31) @project(Steps)
-  ☐ Update and Create - form - doesn't work
-  ☐ Add admin for Form - places:Post
+  ✔ Update and Create - form - doesn't work @done(2016-11-06 23:00) @project(Steps)
+  ✔ Add admin for Form - places:Post @done(2016-11-06 23:00) @project(Steps)
+  ☐ Debug tool bar to make work
   ✔ Delete doesn't work @done(2016-11-06 21:31) @project(Steps)
 
  helper-documentation:
