@@ -1,18 +1,18 @@
 Motto:
-  ☐ Don't be afraid to fail
+ ☐ Don't be afraid to fail
+
 
 Quotes:
-  ☐ A creative person is motivated by his own desire to excel and not the need to beat others.
-
+ ☐ A creative person is motivated by his own desire to excel and not the need to beat others.
 
 Music:
   ☐ https://soundcloud.com/creolemagazine/jbeatz-feat-misty-jean-mkonnen-manto-music-2016
   ☐ https://soundcloud.com/atisyonanbaz/my-pain-kenny-desmangles-album
 
-
 Installation steps:
   ✔ Create Post Model @done(2016-11-06 23:38) @project(Installation steps)
   ✔ Create Post CRUD @done(2016-11-06 23:38) @project(Installation steps)
+  ✔ Fork the application to create a base app @done (16-11-07 03:05)
   ☐ Create user authentification (loginrequiredmixin)
   ☐ Create User Profile
   ☐ Create User Posts
@@ -26,8 +26,7 @@ Installation steps:
   ☐ Review the app (4 days)
   ☐ Create ReactJS app
 
-
-Steps:
+ Steps:
   ✔ Post model @done(2016-11-05 22:01) @project(Steps)
     ✔ CreateView @done(2016-11-05 22:01) @project(Steps)
     ✔ ListView/TemplateView @done(2016-11-05 22:01) @project(Steps)
@@ -39,7 +38,8 @@ Steps:
   ✔ Find a Bootstrap template for CRUD @done(2016-11-06 21:31) @project(Steps)
   ✔ Update and Create - form - doesn't work @done(2016-11-06 23:00) @project(Steps)
   ✔ Add admin for Form - places:Post @done(2016-11-06 23:00) @project(Steps)
-  ☐ Debug tool bar to make work
+  ☐ Debug toolbar to make work... I get over it and use the debugger
+  ☐ Missing a button on Create/Update the form
   ✔ Delete doesn't work @done(2016-11-06 21:31) @project(Steps)
 
  helper-documentation:
@@ -59,4 +59,5 @@ Admin:
 
 
 Dev:
-  ☐ python manage.py seed places --number=15
+  ☐ python manage.py seed user --number=2
+  ☐ python manage.py seed places --number=10
