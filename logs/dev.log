@@ -268,3 +268,5 @@ Traceback (most recent call last):
   File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\files\storage.py", line 299, in listdir
     for entry in os.listdir(path):
 FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\gmond071\\Documents\\GitHub\\lineez\\static'
+[2016-11-07 16:09:15,038] WARNING % : Not Found: /favicon.ico
+[2016-11-07 16:09:23,288] WARNING % : Not Found: /accounts/login/
