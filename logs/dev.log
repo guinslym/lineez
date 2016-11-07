@@ -175,3 +175,4 @@ Traceback (most recent call last):
   File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 495, in _reverse_with_prefix
     (lookup_view_s, args, kwargs, len(patterns), patterns))
 django.core.urlresolvers.NoReverseMatch: Reverse for 'app_list' with arguments '()' and keyword arguments '{'app_label': 'places'}' not found. 1 pattern(s) tried: ['admin/(?P<app_label>auth|sites)/$']
+[2016-11-06 22:01:02,662] WARNING % : Not Found: /update/8/
