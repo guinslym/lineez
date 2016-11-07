@@ -1,6 +1,4 @@
 from django.forms import ModelForm
-from django.contrib import admin
-
 from .models import Post
 
 
@@ -14,4 +12,3 @@ class PostForm(ModelForm):
         ]
 
 #administration
-admin.site.register(Post)
