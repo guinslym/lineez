@@ -408,3 +408,10 @@ Traceback (most recent call last):
   File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\loader.py", line 46, in get_template
     raise TemplateDoesNotExist(template_name)
 django.template.base.TemplateDoesNotExist: registration/login.html
+[2016-11-07 17:10:46,382] WARNING % : Not Found: /accounts/login/
+[2016-11-07 17:10:59,186] WARNING % : Not Found: /accounts/login/
+[2016-11-07 17:11:04,082] WARNING % : Not Found: /accounts/login/
+[2016-11-07 17:11:07,328] WARNING % : Not Found: /accounts/
+[2016-11-07 17:11:46,150] WARNING % : Not Found: /accounts/login/
+[2016-11-07 17:12:32,455] WARNING % : Not Found: /accounts/login/
+[2016-11-07 17:13:31,044] WARNING % : Not Found: /accounts/login/
