@@ -41,7 +41,7 @@ class Post(TimeStampedModel):
     '''
 
     def __str__(self):
-        return str(self.id)
+        return str(self.title)
 
     def get_absolute_url(self):
         return reverse('places:posts-detail', args=(self.id,))

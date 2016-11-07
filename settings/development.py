@@ -10,6 +10,7 @@ TEMPLATE_DEBUG_MODE = True
 
 DEV_APPS = (
     'debug_toolbar',
+    'django_seed',
 )
 INSTALLED_APPS = BASE_APPS + DEV_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 

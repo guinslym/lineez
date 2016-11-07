@@ -50,6 +50,10 @@ Third-Party:
 Extra:
   ☐ https://education.github.com/pack
 
-Admin
+Admin:
 ☐ username: admin
 ☐ password: adminadmin
+
+
+Dev:
+  ☐ python manage.py seed places --number=15
