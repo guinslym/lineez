@@ -23,14 +23,14 @@ class Post(TimeStampedModel):
     #author = models.ForeignKey(settings.AUTH_USER_MODEL)
     title = models.CharField(max_length=60, null=False, blank=False, verbose_name='title')
     location = models.CharField(max_length=100, null=True, blank=True, verbose_name='location')
-    start_date = models.DateTimeField(auto_now=True, auto_now_add=False,blank=True, null=True)
+    start_date = models.DateTimeField()
     #NEEDS to add before_date
     before_start = models.CharField(max_length=10, choices=Number_of_hours, default="Time in day")
-    price = models.DecimalField(max_digits=16, decimal_places=2, default=0, null=True, blank=True)
+    price = models.DecimalField(max_digits=16, decimal_places=2, default=0)
     #activated = models.BooleanField(default=False)
     #did this product have been sale
-    sale = models.BooleanField(default=False)
-    decription = models.TextField(null=True, blank=True, verbose_name='description')
+    #sale = models.BooleanField(default=False)
+    description = models.TextField(verbose_name='description')
     #slug = models.CharField(max_length=220, null=True, blank=True)
     '''
     photo = models.ImageField(

@@ -6,9 +6,6 @@ class PostForm(ModelForm):
 
     class Meta:
         model = Post
-        exclude = [
-            'titre', 'location', 'start_date',
-            'before_date', 'price', 'description'
-        ]
+        fields = ('title', 'location', 'start_date', 'before_start', 'price', 'description')
 
 #administration

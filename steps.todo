@@ -16,6 +16,8 @@ Installation steps:
   ☐ Create user authentification (loginrequiredmixin)
   ☐ Create User Profile
   ☐ Create User Posts
+  ☐ Create Post Acceptation
+  ☐ Create Post Refuse
   ☐ Create Paiement
   ☐ Create Messages
   ☐ Create Followers
