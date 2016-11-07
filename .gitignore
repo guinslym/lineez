@@ -28,3 +28,4 @@ staticfiles_dev/
 htmlcov/
 applications/*/tests/
 description.todo
+python3env
