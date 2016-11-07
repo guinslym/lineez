@@ -13,6 +13,22 @@
     </style>
   </head>
   <body>
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Logo</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+          {% if user.is_authenticated %}
+              <li> <a href="{% url 'logout' %}?next=/">[logout]</a></li>
+          {% else %}
+              <li> <a href="/login/?next=/">[login]</a></li>
+          {% endif %}
+          
+        </ul>
+      </div>
+    </nav>
+
     {% block body %}
       <div class="container">
         {% block container %}{% endblock %}
