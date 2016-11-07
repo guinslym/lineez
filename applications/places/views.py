@@ -5,11 +5,13 @@ from django.views.generic import (
     CreateView, DeleteView,
     UpdateView, RedirectView
     )
+from braces.views import LoginRequiredMixin
+
 # Create your views here.
 from .models import Post
 from .forms import PostForm
 
-class PostHomeListView(ListView):
+class PostHomeListView(LoginRequiredMixin, ListView):
     template_name = "posts/home.html"
     model = Post
 
