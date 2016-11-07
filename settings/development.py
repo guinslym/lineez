@@ -28,6 +28,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     #'whitenoise.middleware.WhiteNoiseMiddleware',
+    
 )
 
 
