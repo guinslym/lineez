@@ -40,6 +40,7 @@ Installation steps:
   ✔ Add admin for Form - places:Post @done(2016-11-06 23:00) @project(Steps)
   ☐ Debug toolbar to make work... I get over it and use the debugger
   ☐ Missing a button on Create/Update the form
+  ☐ bug into admin.. redirect to /account/login/next it should be /login/next...
   ✔ Delete doesn't work @done(2016-11-06 21:31) @project(Steps)
 
  helper-documentation:
