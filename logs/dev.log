@@ -2,3 +2,134 @@
 [2016-11-05 21:22:23,832] WARNING % : Not Found: /favicon.ico
 [2016-11-05 21:56:35,108] WARNING % : Method Not Allowed (POST): /7/
 [2016-11-06 21:14:52,744] WARNING % : Not Found: /favicon.ico
+[2016-11-06 21:16:51,439] ERROR % : Internal Server Error: /9/
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 564, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'settings.places'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\defaulttags.py", line 501, in render
+    current_app=current_app)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 574, in reverse
+    key)
+django.core.urlresolvers.NoReverseMatch: 'settings.places' is not a registered namespace
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\handlers\base.py", line 164, in get_response
+    response = response.render()
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\response.py", line 158, in render
+    self.content = self.rendered_content
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 210, in render
+    return self._render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\test\utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\test\utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 578, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 495, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'posts-update object.id' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+[2016-11-06 21:19:26,072] WARNING % : Method Not Allowed (POST): /2/
+[2016-11-06 21:21:59,806] ERROR % : Internal Server Error: /2/
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\defaulttags.py", line 501, in render
+    current_app=current_app)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 578, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 495, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'settings.blog-home' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\handlers\base.py", line 164, in get_response
+    response = response.render()
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\response.py", line 158, in render
+    self.content = self.rendered_content
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 210, in render
+    return self._render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\test\utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\test\utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\defaulttags.py", line 507, in render
+    six.reraise(*exc_info)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\utils\six.py", line 686, in reraise
+    raise value
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\template\defaulttags.py", line 493, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 578, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Users\gmond071\AppData\Local\Continuum\Miniconda3\lib\site-packages\django\core\urlresolvers.py", line 495, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+django.core.urlresolvers.NoReverseMatch: Reverse for 'blog-home' with arguments '()' and keyword arguments '{}' not found. 0 pattern(s) tried: []
+[2016-11-06 21:22:44,533] WARNING % : Method Not Allowed (POST): /6/
+[2016-11-06 21:23:08,099] WARNING % : Method Not Allowed (POST): /6/
+[2016-11-06 21:23:36,232] WARNING % : Method Not Allowed (POST): /4/
+[2016-11-06 21:29:07,617] WARNING % : Not Found: /__debug__
+[2016-11-06 21:29:16,037] WARNING % : Not Found: /__debug__/

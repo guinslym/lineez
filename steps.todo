@@ -4,7 +4,7 @@ Motto:
 Quotes:
   ☐ A creative person is motivated by his own desire to excel and not the need to beat others.
 
-  
+
 Music:
   ☐ https://soundcloud.com/creolemagazine/jbeatz-feat-misty-jean-mkonnen-manto-music-2016
   ☐ https://soundcloud.com/atisyonanbaz/my-pain-kenny-desmangles-album
@@ -15,7 +15,7 @@ Installation steps:
   ☐ Create Post CRUD
   ☐ Create user authentification (loginrequiredmixin)
   ☐ Create User Profile
-  ☐ Create Paiment
+  ☐ Create Paiement
   ☐ Create Messages
   ☐ Create Followers
   ☐ Create likes
@@ -34,6 +34,8 @@ Steps:
   ✔ URLS for each @done(2016-11-05 22:01) @project(Steps)
   ✔ Templates () @done(2016-11-05 22:01) @project(Steps)
   ☐ Find a Bootstrap template for CRUD
+  ☐ Update and Create - form - doesn't work
+  ☐ Delete doesn't work
 
  helper-documentation:
   ☐ https://github.com/smrkem/Django-TDD-goat-tutorial

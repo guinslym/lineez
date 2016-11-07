@@ -15,7 +15,7 @@ class PostHomeListView(ListView):
 
 
 class PostHomeRedirectView(RedirectView):
-    url = reverse_lazy('posts-home')
+    url = reverse_lazy('places:posts-home')
 
 
 class PostDetailView(DetailView):
@@ -37,7 +37,7 @@ class PostCreateView(CreateView):
 
 class PostDeleteView(DeleteView):
     model = Post
-    success_url = reverse_lazy('posts-home')
+    success_url = reverse_lazy('places:posts-home')
 
 
 class PostUpdateView(UpdateView):
