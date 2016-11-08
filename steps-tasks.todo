@@ -13,9 +13,9 @@ Installation steps:
   ✔ Create Post Model @done(2016-11-06 23:38) @project(Installation steps)
   ✔ Create Post CRUD @done(2016-11-06 23:38) @project(Installation steps)
   ✔ Fork the application to create a base app @done (16-11-07 03:05)
-  ☐ Create user authentification (loginrequiredmixin)
+  ✔ Create user authentification (loginrequiredmixin) @done(2016-11-07 17:14) @project(Installation steps)
   ☐ Create User Profile
-  ☐ Create User Posts
+  ✔ Create User Posts @done(2016-11-07 19:00) @project(Installation steps)
   ☐ Create Post Acceptation
   ☐ Create Post Refuse
   ☐ Create Paiement

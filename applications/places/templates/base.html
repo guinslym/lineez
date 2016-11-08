@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load inbox %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,8 +24,9 @@
               <li> <a href="{% url 'logout' %}?next=/">[logout]</a></li>
           {% else %}
               <li> <a href="/login/?next=/">[login]</a></li>
+              <li>nb Messages: {% inbox_count %}</li>
           {% endif %}
-          
+
         </ul>
       </div>
     </nav>

@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^login/$', auth_views.login, name="login"),
     url(r'^logout/$', auth_views.logout, name="logout"),
+     url(r'^messages/', include('django_messages.urls')),
      url(r'^', include('applications.places.urls', namespace='places')),
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

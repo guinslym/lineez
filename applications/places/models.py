@@ -20,7 +20,7 @@ class Post(TimeStampedModel):
         ('2', '2'),
         )
 
-    #author = models.ForeignKey(settings.AUTH_USER_MODEL)
+    author = models.OneToOneField(settings.AUTH_USER_MODEL)
     title = models.CharField(max_length=60, null=False, blank=False, verbose_name='title')
     location = models.CharField(max_length=100, null=True, blank=True, verbose_name='location')
     start_date = models.DateTimeField()
